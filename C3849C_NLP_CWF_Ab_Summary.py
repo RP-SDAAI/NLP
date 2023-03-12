@@ -68,7 +68,7 @@ text = st.text_area('Text Input')
 
 
 def summary_model(input_text):
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+#    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     if model == "BART":
         bart_model = BartForConditionalGeneration.from_pretrained('facebook/bart-large')

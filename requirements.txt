@@ -1,5 +1,5 @@
 transformers 
 streamlit
 torch
-torchvision 
+pytorch
 sentencepiece

@@ -13,7 +13,7 @@
 # In[ ]:
 
 
-#import torch
+import torch
 import streamlit as st
 from transformers import BartForConditionalGeneration, BartTokenizer, BartModel
 from transformers import T5Tokenizer, T5ForConditionalGeneration
